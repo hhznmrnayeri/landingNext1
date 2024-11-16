@@ -30,6 +30,7 @@ export default {
       fontFamily: {
         outfit: "Outfit",
         outfitBold: "OutfitBold",
+        outfitLight: "OutfitLight",
         outfitMedium: "OutfitMedium",
         outfitSemiBold: "OutfitSemiBold",
       },

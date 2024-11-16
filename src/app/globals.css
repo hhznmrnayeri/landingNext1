@@ -11,6 +11,10 @@
     src: url("/fonts/Outfit/static/Outfit-Bold.ttf") format("truetype");
   }
   @font-face {
+    font-family: "OutfitLight";
+    src: url("/fonts/Outfit/static/Outfit-Light.ttf") format("truetype");
+  }
+  @font-face {
     font-family: "OutfitMedium";
     src: url("/fonts/Outfit/static/Outfit-Medium.ttf") format("truetype");
   }
@@ -19,7 +23,11 @@
     src: url("/fonts/Outfit/static/Outfit-SemiBold.ttf") format("truetype");
   }
 }
-
+@layer components {
+  .mask {
+    backdrop-filter: blur(1px);
+  }
+}
 @layer utilities {
   .flex-center {
     @apply flex items-center justify-center;
