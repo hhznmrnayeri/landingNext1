@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "Outfit";
+    src: url("/fonts/Outfit/static/Outfit-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "OutfitBold";
+    src: url("/fonts/Outfit/static/Outfit-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "OutfitMedium";
+    src: url("/fonts/Outfit/static/Outfit-Medium.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "OutfitSemiBold";
+    src: url("/fonts/Outfit/static/Outfit-SemiBold.ttf") format("truetype");
+  }
+}
