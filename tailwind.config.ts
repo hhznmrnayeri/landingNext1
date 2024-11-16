@@ -13,11 +13,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#417F56",
-        shade: {
-          100: "#396F4B",
-          200: "#315F41",
-        },
+        primary: "#0500FA",
+        secondary: "#E01E5A",
         black: "#0C0C0C",
         error: {
           DEFAULT: "#C30000",
