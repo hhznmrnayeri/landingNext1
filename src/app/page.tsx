@@ -9,7 +9,6 @@ import Nav from "@/view/Nav";
 import Popular from "@/view/Popular";
 import Resource from "@/view/Resource";
 import Trend from "@/view/Trend";
-
 export default function Home() {
   return (
     <div>
