@@ -28,7 +28,7 @@
     backdrop-filter: blur(1px);
   }
   .section__title {
-    @apply relative font-outfitMedium text-5xl w-[560px];
+    @apply relative font-outfitMedium text-5xl w-max;
   }
   .section__title::after {
     content: "NFTs";
