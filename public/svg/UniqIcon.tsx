@@ -1,7 +1,7 @@
 import React from "react";
 export default function UniqIcon() {
   return (
-    <svg fill="none" viewBox="0 0 12 12">
+    <svg fill="none" viewBox="0 0 12 12" width={12} hanging={12}>
       <path
         fill="#03DB80"
         fillRule="evenodd"
