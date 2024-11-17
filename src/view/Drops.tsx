@@ -3,7 +3,7 @@ import SectionTitle from "@/components/SectionTitle";
 import React from "react";
 export default function Drops() {
   return (
-    <div className="container pt-32">
+    <div className="container pt-32 relative">
       <SectionTitle title="Selected notable drops" isCenter={true} />
       <div className="grid grid-cols-12 gap-6 mt-14">
         <SlideItem
@@ -35,6 +35,7 @@ export default function Drops() {
           hasUsers={true}
         />
       </div>
+      <div className="hidden lg:block absolute right-0 top-0 -translate-x-1/4 translate-y-[40%] w-80 h-80 bg-[#D71D61] opacity-25 blur-[70px] -z-10 rounded-full"></div>
     </div>
   );
 }

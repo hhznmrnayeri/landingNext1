@@ -4,7 +4,6 @@ import ArrowRightIcon from "../../public/svg/ArrowRightIcon";
 import Button from "@/components/Button";
 import PlayIcon from "../../public/svg/PlayIcon";
 import HexagonIcon from "../../public/svg/HexagonIcon";
-import MaskIcon from "../../public/svg/MaskIcon";
 export default function Header() {
   return (
     <header className="pt-14 relative">
@@ -87,7 +86,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <MaskIcon style="absolute -top-12 -left-12 w-[500px] h-[450px] -z-10" />
+      <div className="hidden lg:block absolute left-0 top-0 translate-x-1/4 translate-y-[20%] w-80 h-80 bg-[#D71D61] opacity-25 blur-[70px] -z-10 rounded-full"></div>
     </header>
   );
 }
