@@ -1,7 +1,7 @@
 import React from "react";
 export default function CommentIcon() {
   return (
-    <svg fill="none" viewBox="0 0 16 16">
+    <svg fill="none" viewBox="0 0 16 16" width={16} height={16}>
       <path
         fill="#fff"
         d="M8.953 6.578c-.36 0-.64.28-.64.625s.28.625.64.625c.33 0 .61-.28.61-.625a.62.62 0 0 0-.61-.625m-4.375 0c-.36 0-.64.28-.64.625s.28.625.64.625c.33 0 .61-.28.61-.625a.62.62 0 0 0-.61-.625"
