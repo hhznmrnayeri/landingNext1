@@ -27,6 +27,13 @@
   .mask {
     backdrop-filter: blur(1px);
   }
+  .section__title {
+    @apply relative font-outfitMedium text-5xl w-[560px];
+  }
+  .section__title::after {
+    content: "NFTs";
+    @apply absolute bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text bottom-0 right-0 left-0 mx-auto -z-10 font-outfitBold text-8xl w-56;
+  }
 }
 @layer utilities {
   .flex-center {
