@@ -34,6 +34,11 @@
     content: "NFTs";
     @apply absolute bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text bottom-0 right-0 left-0 mx-auto -z-10 font-outfitBold text-8xl w-56;
   }
+  .trend_item:hover {
+    border-image: linear-gradient(to bottom right, #0500fa 25%, #e01e5a 100%) 10;
+    border-color: transparent;
+    border-radius: 12px;
+  }
 }
 @layer utilities {
   .flex-center {

@@ -1,7 +1,7 @@
 import React from "react";
 export default function CheckIcon() {
   return (
-    <svg fill="none" viewBox="0 0 12 12">
+    <svg fill="none" viewBox="0 0 12 12" width={12} height={12}>
       <circle cx="6" cy="6" r="6" fill="#F4C558"></circle>
       <path
         fill="#1E1B33"
